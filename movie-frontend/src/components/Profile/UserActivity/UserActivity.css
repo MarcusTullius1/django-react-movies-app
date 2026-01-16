@@ -1,0 +1,31 @@
+.user-activity {
+  margin-top: 24px;
+}
+
+.activity-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.activity-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+}
+
+.activity-text {
+  color: #222;
+}
+
+.activity-date {
+  color: #888;
+  font-size: 12px;
+}
+
+.activity-empty {
+  color: #777;
+  font-style: italic;
+}

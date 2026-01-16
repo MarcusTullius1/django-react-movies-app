@@ -1,0 +1,26 @@
+.add-movie-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.add-movie-form input {
+  flex: 1;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+.add-movie-form button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  background-color: #ff6b01; /* как кнопки поиска */
+  color: white;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.add-movie-form button:hover {
+  background-color: #e55a00;
+}

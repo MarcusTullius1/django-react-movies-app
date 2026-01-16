@@ -1,0 +1,25 @@
+/* Растягиваем весь HTML и body на полный экран */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+/* Обертка всего приложения */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* на всю высоту экрана */
+}
+
+/* Контент страниц */
+.main-content {
+  flex: 1; /* занимает всё доступное место между хедером и футером */
+}
+
+/* Существующие стили твоих фильмов */
+.movies {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+  padding: 20px;
+}

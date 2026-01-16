@@ -1,0 +1,27 @@
+.movie-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.movie-item label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1rem;
+}
+
+.movie-item button {
+  border: none;
+  background-color: #ff6b01;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.movie-item button:hover {
+  background-color: #e55a00;
+}
